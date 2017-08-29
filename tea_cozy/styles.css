@@ -1,0 +1,140 @@
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align: center;
+  margin-top: auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  font-weight: bold;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  margin-top: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline-block;
+  background-color : black;
+}
+
+  .logo img{
+    padding-left: 10px;
+    text-align: left;
+    height: 50px;
+  }
+
+
+nav{
+    display: inline-block;
+    padding-right: 40px;
+    text-align: right;
+    flex-grow: 1;
+
+}
+
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.content{
+  display: flex;
+  width: 1200px;
+  overflow:auto;
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  width: 1200px;
+  }
+
+#mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  display: block;
+  height: auto;
+  padding-top: 10px;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;}
+
+#teas {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  display: inline-block;
+}
+
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 7px;
+}
+
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+  display: block;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact{
+  height: 200px;
+
+
+}
+
+footer{
+  padding-left: 20px;
+  text-align: left;
+}
+
+div {
+    display: block;}
+
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;}
+
+a {
+    color: inherit;
+        }
